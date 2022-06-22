@@ -5,6 +5,8 @@ import com.example.domain.Position;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.concurrent.Executor;
+import java.util.concurrent.Executors;
 import java.util.stream.Collectors;
 
 import static java.util.Arrays.asList;
@@ -64,6 +66,7 @@ public class GameLogic {
                 positions.add(new Position(row, col));
             }
         }
+
         return positions;
     }
 

@@ -1,5 +1,14 @@
 var ticTacToe = angular.module('ticTacToe', ['ngRoute','gameModule']);
 
+handleVisibleState = () => {
+      let vis = document.visibilityState === 'visible';
+        console.log("visibilityState",vis)
+        if (vis) {
+          location.reload()
+        } else {
+
+        }
+}
 
 
 

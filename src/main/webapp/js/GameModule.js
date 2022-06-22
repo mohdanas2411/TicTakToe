@@ -1,5 +1,10 @@
 var gameModule = angular.module('gameModule', []);
 
+
+document.addEventListener('visibilitychange', this.handleVisibleState, true);
+
+
+
 gameModule.controller('newGameController', ['$rootScope', '$scope', '$http', '$location',
 
     function (rootScope, scope, http, location) {

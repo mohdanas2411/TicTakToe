@@ -13,6 +13,7 @@ import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
+import java.util.concurrent.Executor;
 
 /**
  * Created by pdybka on 30.05.16.
@@ -53,4 +54,6 @@ public class Game {
 
     @Column(name = "created", nullable = false)
     private Date created;
+
+
 }
